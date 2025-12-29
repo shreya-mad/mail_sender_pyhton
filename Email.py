@@ -10,15 +10,15 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-
-
-
 # ---------- CONFIG ----------
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
+
+# SENDER_EMAIL = "smadeshiya12345@gmail.com"
+# SENDER_PASSWORD = "govs pagx blsj alei" 
 
 
 RESUME_FILE = "Shreya_Madeshiya_Resume.pdf"
@@ -114,3 +114,4 @@ print(f"✅ Successfully sent     : {sent_count}")
 print(f"❌ Failed due to errors  : {error_count}")
 print(f"⚠️ Invalid emails skipped: {invalid_count}")
 print("===================================")
+
