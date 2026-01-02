@@ -17,9 +17,6 @@ SMTP_PORT = 587
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
 
-# SENDER_EMAIL = "smadeshiya12345@gmail.com"
-# SENDER_PASSWORD = "govs pagx blsj alei" 
-
 
 RESUME_FILE = "Shreya_Madeshiya_Resume.pdf"
 
